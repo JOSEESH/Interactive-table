@@ -1,0 +1,60 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.000000000000114" scrolly="20.000000000000114" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="20" scrolly="20.000000000000114" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="rJV}m+/d22p1Rj9(j~Hr" inline="false" x="23" y="61">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Q7~4dEO7,[e+Pvln+ApQ">
+          <field name="FIELDNAME">shpere black</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="hvu5py1iG|rp-*Ii)0Bt">
+          <value name="VALUE2">
+            <shadow type="materialList" id="eoE1^l#x)~DL%Nv)}Mqc">
+              <field name="FIELDNAME">black</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="$/CI:PvEe#+get500Q~c">
+              <field name="FIELDNAME">metal stand</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="x}/e)}r1_b[/u-^g^g(w" inline="false" x="50" y="210">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="bJJawQdHzvLWVU/GcuIX">
+          <field name="FIELDNAME">shpere chrome</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id=")a`$2Z6%T0s4RbWieR:M">
+          <value name="VALUE2">
+            <shadow type="materialList" id="l$;A[Y]+lxxZPqEnzzt1">
+              <field name="FIELDNAME">chrome</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="!p~+7~D!B.(7|Eg=)vzg">
+              <field name="FIELDNAME">metal stand</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="570" viewport-y="37" viewport-w="392" viewport-h="329" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
